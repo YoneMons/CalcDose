@@ -7,7 +7,7 @@ public class MedicalPrescription {
     private int drugFrecuency;
     private double drugDoseRecommendation;
 
-    public MedicalPrescription(String drugName, double drugDose, int drugFrecuency) {
+    public MedicalPrescription(double drugDose, int drugFrecuency) {
         this.medicalPrescriptionId = 1;
         this.drugName = drugName;
         this.drugDose = drugDose;
@@ -22,8 +22,8 @@ public class MedicalPrescription {
         this.medicalPrescriptionId = medicalPrescriptionId;
     }
 
-    public String getDrugName() {
-        return drugName;
+    public String getDrugName(String drugName) {
+        return this.drugName;
     }
 
     public void setDrugName(String drugName) {
@@ -56,7 +56,7 @@ public class MedicalPrescription {
 
     @Override
     public String toString() {
-        return "MedicalPrescription{" +
+        return "MedicalPrescription" +
                 "medicalPrescriptionId=" + medicalPrescriptionId +" \n " +
                 ", drugName='" + drugName + '\'' + "\n" +
                 ", drugDose=" + drugDose + "\n" +

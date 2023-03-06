@@ -24,9 +24,11 @@ public class View {
         double drugDose = scanner.nextDouble();
         System.out.println("Please enter frencuency of the drug: ");
         int drugFrencuency = scanner.nextInt();
-
-        MedicalPrescription recommendedDrug = new MedicalPrescription("Paracetamol", 200, 4);
+        
+        Medicines recommendedDrug = new Medicines(100,2,10);
         return recommendedDrug;
+        /*MedicalPrescription recommendedDrug = new MedicalPrescription(200,  4);
+        return recommendedDrug;*/
     }
 
     public void displayRecommendedDose(MedicalPrescription mP) {
