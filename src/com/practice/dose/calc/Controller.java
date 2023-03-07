@@ -12,7 +12,7 @@ public class Controller {
     public Controller(View v) {
         this.v = v;
         this.calcDose = new CalcDose();
-       // this.interp = interp;
+        //this.interp = interp;
         launcher();
     }
 
@@ -23,5 +23,6 @@ public class Controller {
         prescription = v.executePrescription();
         prescription.setDrugDoseRecommendation(calcDose.calculateDose(p.getWeight(), prescription.getDrugDose(), prescription.getDrugFrecuency()));
         v.displayRecommendedDose(prescription);
+        v.displayPatientInformation(p);
     }
 }

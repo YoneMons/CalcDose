@@ -1,16 +1,15 @@
 package com.practice.dose.calc;
 
 public class Interpreter {
-    
     String msg;
-    public String evaluation(double weight){
-        if(weight >= 4 && weight <= 8 ){
+    public String evaluation(double drugDoseRecommendation){
+        if(drugDoseRecommendation >= 1000 && drugDoseRecommendation <= 2000 ){
             msg = "The recommended dose is: ";
-        } else if (weight >= 9 && weight <= 12 ) {
+        } else if (drugDoseRecommendation >= 2001 && drugDoseRecommendation <= 3000 ) {
             msg = "The recommended dose is: ";
-        } else if (weight >= 13 && weight <= 17) {
+        } else if (drugDoseRecommendation >= 3001 && drugDoseRecommendation <= 4000) {
             msg = "The recommended dose is: ";
-        } else if (weight >= 18 && weight <= 24) {
+        } else if (drugDoseRecommendation >= 4001 && drugDoseRecommendation <= 5000) {
             msg = "The recommended dose is: ";
         }else{
             msg = "The recommended dose is: ";

@@ -1,5 +1,8 @@
 package com.practice.dose.calc;
 
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class MedicalPrescription {
     private int medicalPrescriptionId;
     private String drugName;
@@ -54,14 +57,21 @@ public class MedicalPrescription {
         this.drugDoseRecommendation = drugDoseRecommendation;
     }
 
+    public String getMedicineList() {
+        return Stream.of("Aspirin", "Paracetamol", "Ibuprofen")
+                .filter(medicineStream -> medicineStream.length() > 3)
+                .sorted()
+                .collect(Collectors.joining(", "));
+    }
+
     @Override
     public String toString() {
-        return "MedicalPrescription" +
-                "medicalPrescriptionId=" + medicalPrescriptionId +" \n " +
-                ", drugName='" + drugName + '\'' + "\n" +
-                ", drugDose=" + drugDose + "\n" +
-                ", drugFrecuency=" + drugFrecuency + "\n" +
-                ", drugDoseRecommendation=" + drugDoseRecommendation + "\n" +
-                '}';
+        return "\n" + "     Medical Prescription     " + "\n" +
+                "Medical Prescription Id: " + medicalPrescriptionId +" \n " +
+                "Drug Name: '" + drugName + '\'' + "\n" +
+                "Drug Dose: " + drugDose + "\n" +
+                "Drug Frecuency: " + drugFrecuency + "\n" +
+                "Drug Dose Recommendation: " + drugDoseRecommendation + "\n" +
+                "List of Medicines on inventory: " + getMedicineList();
     }
 }

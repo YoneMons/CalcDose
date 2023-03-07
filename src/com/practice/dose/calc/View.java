@@ -25,13 +25,17 @@ public class View {
         System.out.println("Please enter frencuency of the drug: ");
         int drugFrencuency = scanner.nextInt();
         
-        Medicines recommendedDrug = new Medicines(100,2,10);
-        return recommendedDrug;
-        /*MedicalPrescription recommendedDrug = new MedicalPrescription(200,  4);
+        /*Medicines recommendedDrug = new Medicines("Aspirin",100,2,10);
         return recommendedDrug;*/
+        MedicalPrescription recommendedDrug = new MedicalPrescription(200,  4);
+        return recommendedDrug;
     }
 
     public void displayRecommendedDose(MedicalPrescription mP) {
         System.out.println("The dose recommended for this patient is: " +mP.toString());
+    }
+
+    public void displayPatientInformation(Patient patientInformation){
+        System.out.println("Thanks for the registration. " +patientInformation.toString());
     }
 }
