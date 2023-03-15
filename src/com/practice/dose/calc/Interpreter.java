@@ -4,15 +4,15 @@ public class Interpreter {
     String msg;
     public String evaluation(double drugDoseRecommendation){
         if(drugDoseRecommendation >= 1000 && drugDoseRecommendation <= 2000 ){
-            msg = "The recommended dose is: ";
+            msg = "Apply this dose to this patient: " +drugDoseRecommendation;
         } else if (drugDoseRecommendation >= 2001 && drugDoseRecommendation <= 3000 ) {
-            msg = "The recommended dose is: ";
+            msg = "Apply this dose to this patient: " +drugDoseRecommendation;
         } else if (drugDoseRecommendation >= 3001 && drugDoseRecommendation <= 4000) {
-            msg = "The recommended dose is: ";
+            msg = "Apply this dose to this patient: " +drugDoseRecommendation;
         } else if (drugDoseRecommendation >= 4001 && drugDoseRecommendation <= 5000) {
-            msg = "The recommended dose is: ";
+            msg = "Apply this dose to this patient: " +drugDoseRecommendation;
         }else{
-            msg = "The recommended dose is: ";
+            msg = "Please enter again the data of patient";
         }
         return  msg;
     }

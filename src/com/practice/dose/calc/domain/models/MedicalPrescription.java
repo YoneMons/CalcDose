@@ -1,4 +1,4 @@
-package com.practice.dose.calc;
+package com.practice.dose.calc.domain.models;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -38,6 +38,9 @@ public class MedicalPrescription {
     }
 
     public void setDrugDose(double drugDose) {
+        if (drugDose < 0) {
+            throw new IllegalArgumentException("the dose can't be negative or blank");
+        }
         this.drugDose = drugDose;
     }
 
@@ -46,6 +49,9 @@ public class MedicalPrescription {
     }
 
     public void setDrugFrecuency(int drugFrecuency) {
+        if (drugFrecuency < 0) {
+            throw new IllegalArgumentException("The rencuency of the drug can't be negative or blank");
+        }
         this.drugFrecuency = drugFrecuency;
     }
 

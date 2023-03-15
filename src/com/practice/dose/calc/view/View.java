@@ -1,4 +1,7 @@
-package com.practice.dose.calc;
+package com.practice.dose.calc.view;
+
+import com.practice.dose.calc.domain.models.MedicalPrescription;
+import com.practice.dose.calc.domain.models.Patient;
 
 import java.util.Scanner;
 
@@ -36,6 +39,6 @@ public class View {
     }
 
     public void displayPatientInformation(Patient patientInformation){
-        System.out.println("Thanks for the registration. " +patientInformation.toString());
+        System.out.println("Thanks for the consulting. " +patientInformation.toString());
     }
 }
