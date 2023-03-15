@@ -1,8 +1,6 @@
-package com.practice.dose.calc;
+package com.practice.dose.calc.domain.models;
 
-import java.util.stream.Stream;
-
-public class Medicines extends MedicalPrescription{
+public class Medicines extends MedicalPrescription {
 
     int inventary;
 

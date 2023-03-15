@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3f35cb3-da58-45a5-bee9-ff0cafefc8bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DoseCalc/com/practice/dose/calc/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DoseCalc/com/practice/dose/calc/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DoseCalc/com/practice/dose/calc/Interpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DoseCalc/com/practice/dose/calc/Interpreter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DoseCalc/com/practice/dose/calc/MedicalPrescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DoseCalc/com/practice/dose/calc/MedicalPrescription.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/dose/calc/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/dose/calc/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/dose/calc/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/dose/calc/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/dose/calc/MedicalPrescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/dose/calc/MedicalPrescription.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/practice/dose/calc/Medicines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/dose/calc/Medicines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/dose/calc/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/dose/calc/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/dose/calc/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/dose/calc/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
